@@ -5,7 +5,7 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-white shadow-md sticky top-0 left-0 w-full z-50">
+    <nav className="bg-white shadow-md fixed  top-0 left-0 w-full z-50">
       <div className="flex items-center justify-between px-8 py-3 gap-4 w-full">
         {/* --- Left Section (Logo + Explore) --- */}
         <div className="flex items-center gap-4 flex-shrink-0">

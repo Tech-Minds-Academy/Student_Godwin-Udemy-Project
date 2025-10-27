@@ -5,7 +5,7 @@ import img4 from "../assets/img4.png";
 function FeaturedCourses() {
   return (
     <section className="bg-white text-gray-900 py-12 px-6 md:px-10 lg:px-16 overflow-hidden">
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-start justify-between gap-10">
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-start justify-between gap-12">
         {/* --- Left Side: Text --- */}
         <div className="md:w-1/3 flex-shrink-0">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -18,10 +18,10 @@ function FeaturedCourses() {
         </div>
 
         {/* --- Right Side: Cards Grid --- */}
-        <div className="flex-1 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 place-items-center mx-auto">
+        <div className="flex-1 grid grid-cols-1 sm:grid-cols-2 sm:gap-x-2 lg:grid-cols-3 gap-6 md:gap-12  place-items-center mx-auto">
           {/* Card 1 */}
           <div
-            className="h-80 w-[250px] bg-cover bg-center flex items-end  justify-center rounded-xl overflow-hidden shadow-md"
+            className="h-80 w-[200px] bg-cover bg-center flex items-end lg:w-[250px]  justify-center rounded-xl overflow-hidden shadow-md"
             style={{ backgroundImage: `url(${img2})` }}
           >
             <div className="relative w-full z-10 bg-white bg-opacity-80 px-4 py-3 m-3 rounded-t-md">
@@ -37,7 +37,7 @@ function FeaturedCourses() {
 
           {/* Card 2 */}
           <div
-            className="h-80 w-[250px] bg-cover bg-center flex items-end justify-center rounded-xl overflow-hidden shadow-md"
+            className="h-80 w-[200px] bg-cover bg-center lg:w-[250px] flex items-end justify-center rounded-xl overflow-hidden shadow-md"
             style={{ backgroundImage: `url(${img3})` }}
           >
             <div className="relative w-full z-10 bg-white bg-opacity-80 px-4 py-3 m-3 rounded-t-md">
@@ -53,7 +53,7 @@ function FeaturedCourses() {
 
           {/* Card 3 */}
           <div
-            className="h-80 w-[250px] bg-cover bg-center flex items-end justify-center rounded-xl overflow-hidden shadow-md"
+            className="h-80 w-[200px] bg-cover lg:w-[250px] bg-center flex items-end justify-center rounded-xl overflow-hidden shadow-md"
             style={{ backgroundImage: `url(${img4})` }}
           >
             <div className="relative w-full z-10 bg-white bg-opacity-80 px-4 py-3 m-3 rounded-t-md">

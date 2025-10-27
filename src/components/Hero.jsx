@@ -1,6 +1,6 @@
 function Hero() {
   return (
-    <section className="w-full bg-gray-50 ">
+    <section className="w-full bg-gray-50 mt-16 ">
       <div className="bg-[url('./assets/hero.png')] bg-cover bg-center bg-no-repeat  overflow-hidden mx-8 md:mx-24">
         <div className="w-full h-full px-6 md:px-12 py-10 md:py-10 flex justify-start items-center">
           <div className="bg-white text-gray-900 max-w-lg p-8 md:p-8 rounded-lg shadow-lg">
